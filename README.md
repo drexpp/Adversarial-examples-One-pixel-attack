@@ -14,7 +14,7 @@ Repository for the B.Sc. thesis about adversarial examples in particular One pix
     - [Training data (1.01 GB)](https://mega.nz/#!u9tyBCZD!Z8a8BHeyxHPQbbDTy_yltg09I0n23nfE4yZ7TQZFdyw)
     - [Test data (666.1 MB)](https://mega.nz/#!2hlmHKBB!tCOMT3f2IGdGb0SraHn7IszUZ6zrevL9dI6A0cl79gE)
 - Execute **requirements.txt** as `pip install -r requirements.txt`
-- Install protobuf version 3.6.0 by hand since tensorflow requirest protobuf version 3.7.1 and won't let install protobuff==3.6.0 from **requirements.txt**, but newer versions don't work properly with NVIDIA GPUs at least my computer configuration. This is not critical but it will probably return an error inside the first notebook box which checks for CPU/GPUs. 
+- Install protobuf version 3.6.0 using `pip` since tensorflow requires protobuf version 3.7.1 and won't let install protobuff==3.6.0 from **requirements.txt**. Newer versions (>=3.7.0) don't work properly with NVIDIA GPUs at least my computer configuration. This is not critical but it will probably return an error inside the first notebook box which checks for CPU/GPUs. 
   
   `pip install protobuf==3.6.0`
 - Launch jupyter `jupyter notebook` or `jupyter notebook Traffic-signals-cnn.ipynb`
