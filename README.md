@@ -1,6 +1,8 @@
 # Adversarial examples - One pixel attack
 Repository for the B.Sc. thesis about adversarial examples in particular One pixel attack, this attack was proposed in [2018 by Jiawei Su et al.](https://arxiv.org/pdf/1710.08864.pdf)
 
+B.Sc. thesis [paper](https://github.com/drexpp/Adversarial-examples-One-pixel-attack/blob/master/One-pixel-attack-thesis.pdf)
+
 ---
 
 ## How to try the jupyter notebook
